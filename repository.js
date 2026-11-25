@@ -22,6 +22,10 @@ async function getNextId() {
 }
 
 async function findAll(limit) {
+    if (limit === 0) {
+        return [];
+    }
+
     const collection = getCollection();
     const cursor = collection.find({}, { projection: { _id: 0 } });
 
