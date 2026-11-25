@@ -1,0 +1,15 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Bàn phím cơ",
+            "price": 120
+        },
+        {
+            "id": 2,
+            "name": "Chuột gaming",
+            "price": 80
+        }
+    ],
+    "currentId": 3
+}

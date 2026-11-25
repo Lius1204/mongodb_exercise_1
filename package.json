@@ -1,0 +1,15 @@
+{
+  "name": "mongodb_exercise_1",
+  "version": "1.0.0",
+  "description": "MongoDB Exercise 1 - n_layer JSON to MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node migrate.js",
+    "seed": "node migrate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  }
+}
